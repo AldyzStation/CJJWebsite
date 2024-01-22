@@ -20,6 +20,25 @@
   /* styles for large screens */
 }
 
+@media screen and (orientation: landscape) {
+  .main-content {
+    display: none;
+  }
+  .use-portrait {
+    display: block;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .main-content {
+    display: block;
+  }
+  .use-portrait {
+    display: none;
+  }
+}
+
+
  .layout { /* Website grid layout */
     width: 1850px;
     height: 1000px;
