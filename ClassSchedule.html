@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+    <style>
+        body {
+          background-image: url("./images/classschedule.png");
+          width: 1850px;
+          height: 1000px;
+        }
+      </style>
+      <section class="layout">
+        <div class="header">
+            <div id="hello">
+                <script src="./scripts/greeting.js"></script>
+            </div>
+            <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- Overlay content -->
+                    <div class="overlay-content"> 
+                    <h5>
+                    <a href="index.html" rel="canonical">Home</a>
+                    <a href="MembershipPricing.html" rel="canonical">Membership Pricing</a>
+                    </h5>
+                    </div>
+                    </div>
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Cognition Jui Jitsu Menu</span>
+                    <!-- Use any element to open/show the overlay navigation menu -->
+                    <span onclick="openNav()"></span>
+                    <script src="./scripts/overlaynav.js"></script>
+            </div>
+        </section>
+</body>
+</html>
