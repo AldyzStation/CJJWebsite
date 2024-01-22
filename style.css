@@ -48,7 +48,6 @@
   padding: 10px;
 }
 
-
 @media screen and (orientation: landscape) {
   .main-content {
     display: none;
@@ -66,7 +65,6 @@
     display: none;
   }
 }
-
 
  .layout { /* Website grid layout */
     width: 1850px;
