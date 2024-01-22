@@ -20,6 +20,35 @@
   /* styles for large screens */
 }
 
+@media screen and (max-width: 768px) {
+  .column {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .column {
+    flex-basis: 100%;
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 0 25%;
+  padding: 10px;
+}
+
+
 @media screen and (orientation: landscape) {
   .main-content {
     display: none;
